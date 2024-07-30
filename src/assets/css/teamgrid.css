@@ -1,0 +1,50 @@
+.team-grid-sec{
+    width: 80%;
+    padding: 0px 50px; 
+}
+.team-grid-main-div{
+    display: flex;
+    margin-top: 100px;
+}
+.team-grid-name{
+    transform: rotate(270deg);
+    height: 50px;
+    top: 0px;
+    margin: 70px -50px 0px 0px;
+}
+.team-card-img-div{
+    position: relative;
+}
+.team-card-contact{
+    justify-content: space-between;
+    background-color: #163f81;
+    align-items: center;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 0%;
+    overflow: hidden;
+    transition: width 0.1s linear;
+}
+.team-cont-p{
+    margin: 0px;
+    font-weight: bold;
+}
+.team-cont-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.team-cont-desg{
+    font-size: 14px;
+    font-weight: bold;
+}
+.team-main-card{
+    cursor: pointer;
+}
+.team-main-card:hover .team-card-contact{
+        width: 100%;
+        padding: 5px;
+    }
